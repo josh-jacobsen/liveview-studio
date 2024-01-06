@@ -1,0 +1,4 @@
+# for some reason ripgrep ins't respecting the 'deps' entry .gitignore, so to has to be duplicated here 
+
+deps
+_build

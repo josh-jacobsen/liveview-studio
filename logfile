@@ -1,0 +1,14 @@
+2024-01-06 04:54:29.104 NZDT [79075] LOG:  starting PostgreSQL 15.0 on x86_64-apple-darwin23.2.0, compiled by Apple clang version 14.0.3 (clang-1403.0.22.14.1), 64-bit
+2024-01-06 04:54:29.106 NZDT [79075] LOG:  listening on IPv6 address "::1", port 5432
+2024-01-06 04:54:29.106 NZDT [79075] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-01-06 04:54:29.107 NZDT [79075] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-01-06 04:54:29.111 NZDT [79078] LOG:  database system was shut down at 2024-01-06 04:53:37 NZDT
+2024-01-06 04:54:29.113 NZDT [79075] LOG:  database system is ready to accept connections
+2024-01-06 04:54:35.077 NZDT [79399] FATAL:  role "postgres" does not exist
+2024-01-06 04:54:35.089 NZDT [79400] FATAL:  role "postgres" does not exist
+2024-01-06 04:55:26.565 NZDT [79580] FATAL:  database "/du" does not exist
+2024-01-06 04:55:35.465 NZDT [79742] FATAL:  database "du" does not exist
+2024-01-06 04:59:29.094 NZDT [79076] LOG:  checkpoint starting: time
+2024-01-06 04:59:33.343 NZDT [79076] LOG:  checkpoint complete: wrote 45 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.243 s, sync=0.004 s, total=4.250 s; sync files=11, longest=0.001 s, average=0.001 s; distance=266 kB, estimate=266 kB
+2024-01-06 05:16:17.317 NZDT [79076] LOG:  checkpoint starting: time
+2024-01-06 05:17:49.118 NZDT [79076] LOG:  checkpoint complete: wrote 912 buffers (5.6%); 0 WAL file(s) added, 0 removed, 0 recycled; write=91.792 s, sync=0.007 s, total=91.802 s; sync files=256, longest=0.001 s, average=0.001 s; distance=4072 kB, estimate=4072 kB
